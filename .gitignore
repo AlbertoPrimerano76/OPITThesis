@@ -1,61 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-Experiment 1/__pycache__/auto_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/utilities.cpython-311.pyc
-Experiment 1/__pycache__/utilities.cpython-312.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-312.pyc
-Experiment 1/catboost_info/catboost_training.json
-Experiment 1/catboost_info/learn/events.out.tfevents
-Experiment 1/catboost_info/learn_error.tsv
-Experiment 1/catboost_info/time_left.tsv
-Experiment 2 - SHAP Precision ML/__pycache__/auto_insurance_premium.cpython-311.pyc
-Experiment 2 - SHAP Precision ML/__pycache__/auto_insurance_premium.cpython-312.pyc
-Experiment 2 - SHAP Precision ML/__pycache__/cybersecurity_insurance_premium.cpython-311.pyc
-Experiment 2 - SHAP Precision ML/__pycache__/cybersecurity_insurance_premium.cpython-312.pyc
-Experiment 2 - SHAP Precision ML/__pycache__/env_liability_insurance_premium.cpython-311.pyc
-Experiment 2 - SHAP Precision ML/__pycache__/env_liability_insurance_premium.cpython-312.pyc
-Experiment 2 - SHAP Precision ML/__pycache__/utilities.cpython-311.pyc
-Experiment 2 - SHAP Precision ML/__pycache__/utilities.cpython-312.pyc
-Experiment 2 - SHAP Precision ML/saved_models/stacking_model.pkl
-Experiment 2 - SHAP Precision ML/saved_models/stacking_model.joblib
-Experiment 1/__pycache__/auto_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/utilities.cpython-311.pyc
-Experiment 1/__pycache__/utilities.cpython-312.pyc
-Experiment 1/catboost_info/catboost_training.json
-Experiment 1/catboost_info/learn/events.out.tfevents
-Experiment 1/catboost_info/learn_error.tsv
-Experiment 1/catboost_info/time_left.tsv
-Experiment 1/catboost_info/time_left.tsv
-Experiment 1/catboost_info/learn_error.tsv
-Experiment 1/catboost_info/learn/events.out.tfevents
-Experiment 1/catboost_info/catboost_training.json
-Experiment 1/__pycache__/utilities.cpython-312.pyc
-Experiment 1/__pycache__/utilities.cpython-311.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-311.pyc
-Experiment 1/catboost_info/time_left.tsv
-Experiment 1/catboost_info/learn_error.tsv
-Experiment 1/catboost_info/learn/events.out.tfevents
-Experiment 1/catboost_info/catboost_training.json
-Experiment 1/__pycache__/utilities.cpython-312.pyc
-Experiment 1/__pycache__/utilities.cpython-311.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/env_liability_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/cybersecurity_insurance_premium.cpython-311.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-312.pyc
-Experiment 1/__pycache__/auto_insurance_premium.cpython-311.pyc
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Experiment Outputs (keep structure but ignore generated files)
+*.csv
+!examples/*.csv
+catboost_info/
+
+# Model Files (large binary files)
+*.pkl
+*.joblib
+*.model
+*.h5
+*.pt
+*.pth
+saved_models/*.pkl
+saved_models/*.joblib
+
+# Logs
+*.log
+logs/
+
+# Data (if adding large datasets)
+data/*.csv
+data/*.parquet
+!data/README.md

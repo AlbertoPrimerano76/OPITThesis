@@ -1,0 +1,30 @@
+# Core Machine Learning Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+catboost>=1.2.0
+
+# Explainable AI
+shap>=0.44.0
+
+# Statistics
+statsmodels>=0.14.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Progress Bars
+tqdm>=4.65.0
+
+# Model Serialization
+joblib>=1.3.0
+
+# Jupyter Support
+jupyter>=1.0.0
+notebook>=6.5.0
+ipywidgets>=8.0.0
+
+# Optional: For report generation (if extending to automated reports)
+# openai>=1.0.0  # Uncomment if using GPT API for report generation
